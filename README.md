@@ -49,7 +49,7 @@ Above picture shows the project structure of a simple python microservice using 
      - test: runs all unit tests inside of the project's test directory.
 
 ### Example projects to folllow for proper structuring
-Below are some examples of python microservices projects you can follow to get a better understanding of the project structuring.
+Below are some examples of python microservices projects you can follow to get a better understanding of the project structuring. You can also go through the code to understand how different core functions/components are segregated for better readability.
 
 - https://github.com/umermansoor/microservices
 - https://github.com/IBM/flask-microservice
