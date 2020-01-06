@@ -30,4 +30,26 @@ Each microservice also exposes a dedicated REST API. For example, the Inventory 
 - Deployment – as everything is encapsulated into separate microservices, you only need to deploy the services that you’ve changed and not the entire application.
 
 ## Example Project Structure
+<p align="left">
+  <img src="https://github.com/NitheshSinghSanjay/Structuring-Microservices-Projects/blob/master/microservices_structure.PNG" width="350" title="Sample Microservices Project Structure">
+</p>
 
+Above picture shows the project structure of a simple python microservice using Flask.
+- **Public** folder contains your public html files to be rendered.
+- **Server**
+     - **Config** folder contains basic server configurations.
+     - **Database** folder contains database/models specific to microservices.
+     - **Routes** folder contains all the route definitions.
+     - **Services** folder contains all your microservices files.
+- **Tests** folder contains the test code for your project.
+- **manage.py** offers a variety of different run commands to match the proper situation:
+     - start: starts a server in a production setting using gunicorn.
+     - run: starts a native Flask development server.
+     - build: compiles .py files within the project directory into .pyc files.
+     - test: runs all unit tests inside of the project's test directory.
+
+### Example projects to folllow for proper structuring
+Below are some examples of python microservices projects you can follow to get a better understanding of the project structuring.
+
+- https://github.com/umermansoor/microservices
+- https://github.com/IBM/flask-microservice
