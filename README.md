@@ -28,3 +28,6 @@ Each microservice also exposes a dedicated REST API. For example, the Inventory 
 - Reusability – as microservice are organized around business cases and not a particular project, due to their implementation, they can be reused and easily slotted into other projects or services, thereby reducing costs.
 - Fault tolerance – reduced downtime due to more resilient services.
 - Deployment – as everything is encapsulated into separate microservices, you only need to deploy the services that you’ve changed and not the entire application.
+
+## Example Project Structure
+
