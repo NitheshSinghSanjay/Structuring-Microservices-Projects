@@ -1,5 +1,5 @@
 # Structuring-Microservices-Projects
-Quick guide to structure your microservices project
+A Quick guide to structure your microservices project.
 
 ## What is a Microservice Architecture?
 Microservice architecture is a form of service-oriented architecture (SOA) whereby software applications are built as a collection of loosely coupled services, as opposed to one monolithic software application.  Each microservice can be created independently from the other, or even in a completely different programming language and run on their own.
